@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import Article from './article'
 import Author from './author'
+import CommentsPost from './comments'
 
 class App extends Component {
   render() {
@@ -16,20 +17,9 @@ class App extends Component {
 
       <Article /> 
  
-        <div className="article-links">
-          <a className="article-link" href="#">
-            <i className="fa fa-comments-o"></i>
-            <span className="article-link-text">Comments</span>
-          </a>
-          
-          <a className="article-link" href="#">
-            <i className="fa fa-share"></i>
-            <span className="article-link-text">Share Post</span>
-          </a>
-        </div>
-        
-      </div>
+      <CommentsPost />
  
+      </div>
       <aside className="large-4 medium-12 columns">
         <div className="ad">
           <h3>The Last Hammer You'll Ever Need</h3>

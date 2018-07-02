@@ -12,5 +12,6 @@ class Author extends Component{
             </div>
             )
         }
-    }
+    } 
+{/* */}
 export default Author 
